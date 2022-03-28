@@ -130,7 +130,7 @@ namespace AdventureGame
                 else
                 {
                     page = 14;
-                }    
+                }
             }
             else if (page == 19)
             {
@@ -247,8 +247,10 @@ namespace AdventureGame
                     option1Label.Text = "Yes";
                     option2Label.Text = "No";
                     option3Button.Visible = false;
+
                     itemBox1.Image = null;
                     itemBox2.Image = null;
+
                     pictureBox.Image = Properties.Resources.StartRoom;
                     break;
 
@@ -257,6 +259,7 @@ namespace AdventureGame
                     option1Label.Text = "Go to the fence";
                     option2Label.Text = "Walk down the hallway";
                     option3Button.Visible = false;
+
                     pictureBox.Image = Properties.Resources.DarkHall;
                     break;
 
@@ -272,6 +275,7 @@ namespace AdventureGame
                     option1Label.Text = "Yes";
                     option2Label.Text = "No";
                     option3Button.Visible = false;
+
                     pictureBox.Image = Properties.Resources.FenceRoom;
                     break;
 
@@ -281,6 +285,7 @@ namespace AdventureGame
                     option2Label.Text = "No";
                     option3Button.Visible = false;
                     itemBox1.Image = Properties.Resources.key;
+
                     pictureBox.Image = Properties.Resources.FenceRoom;
                     break;
 
@@ -289,6 +294,7 @@ namespace AdventureGame
                     option1Label.Text = "Continue";
                     option2Label.Text = "";
                     option3Button.Visible = false;
+
                     pictureBox.Image = Properties.Resources.FenceRoom;
                     break;
 
@@ -297,6 +303,7 @@ namespace AdventureGame
                     option1Label.Text = "Continue";
                     option2Label.Text = "";
                     option3Button.Visible = false;
+
                     pictureBox.Image = Properties.Resources.DarkHall;
                     break;
 
@@ -305,6 +312,7 @@ namespace AdventureGame
                     option1Label.Text = "Yes";
                     option2Label.Text = "No";
                     option3Button.Visible = false;
+
                     pictureBox.Image = Properties.Resources.Window;
                     break;
 
@@ -313,6 +321,7 @@ namespace AdventureGame
                     option1Label.Text = "Continue";
                     option2Label.Text = "";
                     option3Button.Visible = false;
+
                     pictureBox.Image = Properties.Resources.Window;
                     break;
 
@@ -321,6 +330,7 @@ namespace AdventureGame
                     option1Label.Text = "Continue";
                     option2Label.Text = "";
                     option3Button.Visible = false;
+
                     pictureBox.Image = Properties.Resources.WinScreen;
                     break;
 
@@ -329,6 +339,7 @@ namespace AdventureGame
                     option1Label.Text = "Continue";
                     option2Label.Text = "";
                     option3Button.Visible = false;
+
                     pictureBox.Image = Properties.Resources.Forest;
                     break;
 
@@ -337,6 +348,7 @@ namespace AdventureGame
                     option1Label.Text = "Yes";
                     option2Label.Text = "No";
                     option3Button.Visible = false;
+
                     pictureBox.Image = Properties.Resources.DarkHall;
                     break;
 
@@ -345,6 +357,7 @@ namespace AdventureGame
                     option1Label.Text = "Yes";
                     option2Label.Text = "No";
                     option3Button.Visible = false;
+
                     pictureBox.Image = Properties.Resources.Door;
                     break;
 
@@ -354,6 +367,7 @@ namespace AdventureGame
                     option2Label.Text = "Jump the fence";
                     option3Label.Text = "Break the lock on the fence gate";
                     option3Button.Visible = true;
+
                     pictureBox.Image = Properties.Resources.Door;
                     break;
 
@@ -363,6 +377,7 @@ namespace AdventureGame
                     option2Label.Text = "";
                     option3Label.Text = "";
                     option3Button.Visible = false;
+
                     pictureBox.Image = Properties.Resources.BarbedWire;
                     break;
 
@@ -372,6 +387,7 @@ namespace AdventureGame
                     option2Label.Text = "";
                     option3Label.Text = "";
                     option3Button.Visible = false;
+
                     pictureBox.Image = Properties.Resources.BarbedWire;
                     break;
 
@@ -381,6 +397,7 @@ namespace AdventureGame
                     option2Label.Text = "Bike";
                     option3Label.Text = "";
                     option3Button.Visible = false;
+
                     pictureBox.Image = Properties.Resources.Forest;
                     break;
 
@@ -390,6 +407,7 @@ namespace AdventureGame
                     option2Label.Text = "";
                     option3Label.Text = "";
                     option3Button.Visible = false;
+
                     pictureBox.Image = Properties.Resources.BarbedWire;
                     break;
 
@@ -399,6 +417,7 @@ namespace AdventureGame
                     option2Label.Text = "";
                     option3Label.Text = "";
                     option3Button.Visible = false;
+
                     pictureBox.Image = Properties.Resources.Forest;
                     break;
 
@@ -408,6 +427,7 @@ namespace AdventureGame
                     option2Label.Text = "";
                     option3Label.Text = "";
                     option3Button.Visible = false;
+
                     pictureBox.Image = Properties.Resources.Forest;
                     break;
 
@@ -417,6 +437,7 @@ namespace AdventureGame
                     option2Label.Text = "";
                     option3Label.Text = "";
                     option3Button.Visible = false;
+
                     pictureBox.Image = Properties.Resources.WinScreen;
                     break;
 
@@ -426,6 +447,7 @@ namespace AdventureGame
                     option2Label.Text = "";
                     option3Label.Text = "";
                     option3Button.Visible = false;
+
                     pictureBox.Image = Properties.Resources.Door;
                     break;
 
@@ -435,6 +457,7 @@ namespace AdventureGame
                     option2Label.Text = "No";
                     option3Label.Text = "";
                     option3Button.Visible = false;
+
                     pictureBox.Image = null;
                     break;
 
@@ -444,6 +467,7 @@ namespace AdventureGame
                     option2Label.Text = "No";
                     option3Label.Text = "";
                     option3Button.Visible = false;
+
                     pictureBox.Image = Properties.Resources.StartRoom;
                     break;
 
@@ -453,35 +477,9 @@ namespace AdventureGame
                     option2Label.Text = "No";
                     option3Label.Text = "";
                     option3Button.Visible = false;
+
                     pictureBox.Image = Properties.Resources.WinScreen;
                     break;
-
-
-
-            }
-        }
-
-        private void itemBox1_Click(object sender, EventArgs e)
-        {
-            if(key == true)
-            {
-                itemBox1.Image = Properties.Resources.key;
-            }
-            else
-            {
-                itemBox1 = null;
-            }
-        }
-
-        private void itemBox2_Click(object sender, EventArgs e)
-        {
-            if (stick == true)
-            {
-                itemBox2.Image = Properties.Resources.key;
-            }
-            else
-            {
-                itemBox2 = null;
             }
         }
     }

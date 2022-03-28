@@ -114,7 +114,7 @@
             this.itemBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.itemBox2.TabIndex = 9;
             this.itemBox2.TabStop = false;
-            this.itemBox2.Click += new System.EventHandler(this.itemBox2_Click);
+
             // 
             // itemBox1
             // 
@@ -124,7 +124,7 @@
             this.itemBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.itemBox1.TabIndex = 8;
             this.itemBox1.TabStop = false;
-            this.itemBox1.Click += new System.EventHandler(this.itemBox1_Click);
+
             // 
             // pictureBox
             // 
