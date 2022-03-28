@@ -113,9 +113,29 @@ namespace AdventureGame.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap key {
+            get {
+                object obj = ResourceManager.GetObject("key", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap StartRoom {
             get {
                 object obj = ResourceManager.GetObject("StartRoom", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap stick {
+            get {
+                object obj = ResourceManager.GetObject("stick", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

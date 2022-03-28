@@ -55,6 +55,7 @@ namespace AdventureGame
             {
                 page = 8;
                 stick = true;
+                itemBox2.Image = Properties.Resources.stick;
             }
             else if (page == 6)
             {
@@ -102,6 +103,7 @@ namespace AdventureGame
             else if (page == 13)
             {
                 page = 14;
+                itemBox1.Image = null;
             }
             else if (page == 14)
             {
@@ -226,6 +228,7 @@ namespace AdventureGame
             if (stick == true)
             {
                 page = 17;
+                itemBox2.Image = null;
             }
             else if (stick == false)
             {
@@ -244,6 +247,8 @@ namespace AdventureGame
                     option1Label.Text = "Yes";
                     option2Label.Text = "No";
                     option3Button.Visible = false;
+                    itemBox1.Image = null;
+                    itemBox2.Image = null;
                     pictureBox.Image = Properties.Resources.StartRoom;
                     break;
 
@@ -275,6 +280,7 @@ namespace AdventureGame
                     option1Label.Text = "Yes";
                     option2Label.Text = "No";
                     option3Button.Visible = false;
+                    itemBox1.Image = Properties.Resources.key;
                     pictureBox.Image = Properties.Resources.FenceRoom;
                     break;
 
@@ -452,6 +458,30 @@ namespace AdventureGame
 
 
 
+            }
+        }
+
+        private void itemBox1_Click(object sender, EventArgs e)
+        {
+            if(key == true)
+            {
+                itemBox1.Image = Properties.Resources.key;
+            }
+            else
+            {
+                itemBox1 = null;
+            }
+        }
+
+        private void itemBox2_Click(object sender, EventArgs e)
+        {
+            if (stick == true)
+            {
+                itemBox2.Image = Properties.Resources.key;
+            }
+            else
+            {
+                itemBox2 = null;
             }
         }
     }

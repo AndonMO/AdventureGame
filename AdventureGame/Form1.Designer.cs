@@ -35,7 +35,11 @@
             this.option1Label = new System.Windows.Forms.Label();
             this.option2Label = new System.Windows.Forms.Label();
             this.option3Label = new System.Windows.Forms.Label();
+            this.itemBox2 = new System.Windows.Forms.PictureBox();
+            this.itemBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.itemBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.itemBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).BeginInit();
             this.SuspendLayout();
             // 
@@ -102,6 +106,26 @@
             this.option3Label.Size = new System.Drawing.Size(595, 23);
             this.option3Label.TabIndex = 7;
             // 
+            // itemBox2
+            // 
+            this.itemBox2.Location = new System.Drawing.Point(58, 69);
+            this.itemBox2.Name = "itemBox2";
+            this.itemBox2.Size = new System.Drawing.Size(50, 50);
+            this.itemBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.itemBox2.TabIndex = 9;
+            this.itemBox2.TabStop = false;
+            this.itemBox2.Click += new System.EventHandler(this.itemBox2_Click);
+            // 
+            // itemBox1
+            // 
+            this.itemBox1.Location = new System.Drawing.Point(58, 13);
+            this.itemBox1.Name = "itemBox1";
+            this.itemBox1.Size = new System.Drawing.Size(50, 50);
+            this.itemBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.itemBox1.TabIndex = 8;
+            this.itemBox1.TabStop = false;
+            this.itemBox1.Click += new System.EventHandler(this.itemBox1_Click);
+            // 
             // pictureBox
             // 
             this.pictureBox.Image = global::AdventureGame.Properties.Resources.StartRoom;
@@ -118,6 +142,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(804, 481);
+            this.Controls.Add(this.itemBox2);
+            this.Controls.Add(this.itemBox1);
             this.Controls.Add(this.option3Label);
             this.Controls.Add(this.option2Label);
             this.Controls.Add(this.option1Label);
@@ -129,6 +155,8 @@
             this.ForeColor = System.Drawing.Color.Black;
             this.Name = "Form1";
             this.Text = "Choose your own Adventure Game";
+            ((System.ComponentModel.ISupportInitialize)(this.itemBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.itemBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).EndInit();
             this.ResumeLayout(false);
 
@@ -144,6 +172,8 @@
         private System.Windows.Forms.Label option1Label;
         private System.Windows.Forms.Label option2Label;
         private System.Windows.Forms.Label option3Label;
+        private System.Windows.Forms.PictureBox itemBox1;
+        private System.Windows.Forms.PictureBox itemBox2;
     }
 }
 
