@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.option1Button = new System.Windows.Forms.Button();
             this.option2Button = new System.Windows.Forms.Button();
             this.option3Button = new System.Windows.Forms.Button();
@@ -114,7 +115,6 @@
             this.itemBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.itemBox2.TabIndex = 9;
             this.itemBox2.TabStop = false;
-
             // 
             // itemBox1
             // 
@@ -124,7 +124,6 @@
             this.itemBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.itemBox1.TabIndex = 8;
             this.itemBox1.TabStop = false;
-
             // 
             // pictureBox
             // 
@@ -153,6 +152,7 @@
             this.Controls.Add(this.option1Button);
             this.Controls.Add(this.pictureBox);
             this.ForeColor = System.Drawing.Color.Black;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Choose your own Adventure Game";
             ((System.ComponentModel.ISupportInitialize)(this.itemBox2)).EndInit();

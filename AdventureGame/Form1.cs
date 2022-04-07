@@ -13,6 +13,9 @@ namespace AdventureGame
 {
     public partial class Form1 : Form
     {
+        /// <summary>
+        /// Items and initial variables
+        /// </summary>
         int page = 1;
         bool key = false;
         bool stick = false;
@@ -23,7 +26,8 @@ namespace AdventureGame
             DisplayPage();
 
         }
-
+        
+        //All options for first button
         private void option1Button_Click(object sender, EventArgs e)
         {
             if (page == 1)
@@ -169,7 +173,8 @@ namespace AdventureGame
 
             DisplayPage();
         }
-
+        
+        //All options for second button
         private void option2Button_Click(object sender, EventArgs e)
         {
             if (page == 1)
@@ -222,7 +227,8 @@ namespace AdventureGame
             }
             DisplayPage();
         }
-
+       
+        //All options for when third button is available and visible
         private void option3Button_Click(object sender, EventArgs e)
         {
             if (stick == true)
@@ -237,7 +243,8 @@ namespace AdventureGame
 
             DisplayPage();
         }
-
+       
+        //Text, images and sounds
         public void DisplayPage()
         {
             switch (page)
